@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="paper">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>奥山由之 (Yoshiyuki Okuyama) · 摄影作品集与灵感档案</title>
+<meta name="description" content="摄影大师奥山由之（Yoshiyuki Okuyama）摄影作品集与灵感档案：精选 35 幅高画质原作、胶片美学与创作手记。">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg-primary: #fbf9f5; --bg-secondary: #f3efe6; --bg-tertiary: #e8e2d5;
+  --card-bg: #ffffff; --card-border: rgba(0, 0, 0, 0.08); --card-border-strong: rgba(0, 0, 0, 0.16);
+  --card-border-gold: rgba(180, 83, 9, 0.35);
+  --text-primary: #18181b; --text-secondary: #4b5563; --text-muted: #6b7280; --text-gold: #b45309;
+  --accent-gold: #b45309; --accent-gold-bg: rgba(180, 83, 9, 0.08);
+  --font-serif: "Cinzel", "Newsreader", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  --font-mono: "Space Grotesk", SFMono-Regular, monospace;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05); --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 20px 35px -5px rgba(0, 0, 0, 0.08);
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 16px;
+}
+[data-theme="dark"] {
+  --bg-primary: #0f1013; --bg-secondary: #16181e; --bg-tertiary: #20232b;
+  --card-bg: #181a20; --card-border: rgba(255, 255, 255, 0.09); --card-border-strong: rgba(255, 255, 255, 0.18);
+  --card-border-gold: rgba(212, 175, 55, 0.45);
+  --text-primary: #f4f4f5; --text-secondary: #9ca3af; --text-muted: #6b7280; --text-gold: #eab308;
+  --accent-gold: #eab308; --accent-gold-bg: rgba(234, 179, 8, 0.12);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4); --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.7);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body { font-family: var(--font-body); background-color: var(--bg-primary); color: var(--text-primary); line-height: 1.75; -webkit-font-smoothing: antialiased; overflow-x: hidden; transition: background 0.3s, color 0.3s; }
+.container { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+
+.site-header { position: sticky; top: 0; z-index: 100; background: rgba(251, 249, 245, 0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--card-border); }
+[data-theme="dark"] .site-header { background: rgba(15, 16, 19, 0.9); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+.brand-badge { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text-primary); }
+.brand-mark { width: 32px; height: 32px; background: linear-gradient(135deg, var(--accent-gold), #9a6700); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; font-family: var(--font-mono); font-weight: 700; font-size: 13px; color: #fff; }
+.brand-name { font-family: var(--font-serif); font-size: 16px; font-weight: 700; letter-spacing: 1px; }
+
+.header-actions { display: flex; align-items: center; gap: 10px; }
+.pill-btn { background: var(--bg-secondary); border: 1px solid var(--card-border-strong); color: var(--text-primary); padding: 6px 14px; border-radius: 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-family: var(--font-mono); text-decoration: none; transition: all 0.2s ease; }
+.pill-btn:hover { border-color: var(--accent-gold); color: var(--accent-gold); transform: translateY(-1px); }
+
+.hero { padding: 56px 0 36px; text-align: center; border-bottom: 1px solid var(--card-border); }
+.hero-tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 14px; background: var(--accent-gold-bg); border: 1px solid var(--card-border-gold); border-radius: 24px; font-family: var(--font-mono); font-size: 11px; color: var(--text-gold); text-transform: uppercase; margin-bottom: 16px; font-weight: 700; }
+.hero-title { font-family: var(--font-serif); font-size: clamp(32px, 5vw, 54px); font-weight: 900; letter-spacing: 1.5px; margin-bottom: 12px; }
+.hero-quote { max-width: 680px; margin: 0 auto 28px; font-size: clamp(14px, 1.8vw, 16px); color: var(--text-secondary); line-height: 1.8; font-style: italic; background: var(--bg-secondary); padding: 16px 24px; border-radius: var(--radius-md); border-left: 3px solid var(--accent-gold); }
+.hero-stats { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-bottom: 24px; }
+.stat-item { background: var(--bg-secondary); border: 1px solid var(--card-border); padding: 6px 14px; border-radius: 6px; font-size: 12px; font-family: var(--font-mono); color: var(--text-secondary); }
+.stat-item strong { color: var(--text-primary); }
+
+.controls-bar-wrap { position: sticky; top: 60px; z-index: 90; background: rgba(251, 249, 245, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--card-border); padding: 10px 0; }
+[data-theme="dark"] .controls-bar-wrap { background: rgba(15, 16, 19, 0.95); }
+.controls-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+.view-mode-group { display: flex; gap: 4px; background: var(--bg-secondary); padding: 3px; border-radius: 8px; border: 1px solid var(--card-border); }
+.view-btn { background: transparent; border: none; padding: 4px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; color: var(--text-secondary); font-weight: 600; }
+.view-btn.active { background: var(--card-bg); color: var(--text-gold); box-shadow: var(--shadow-sm); }
+
+.gallery-section { padding: 32px 0 80px; }
+.feed-layout { display: flex; flex-direction: column; gap: 36px; max-width: 680px; margin: 0 auto; }
+.feed-card { background: var(--card-bg); border: 1px solid var(--card-border-strong); border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); transition: transform 0.25s ease; }
+.feed-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.feed-card-img { width: 100%; height: auto; display: block; cursor: zoom-in; background: var(--bg-secondary); }
+.feed-card-footer { padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--card-border); background: var(--bg-secondary); font-size: 12px; }
+
+.masonry-layout { display: none; column-count: 3; column-gap: 16px; }
+.masonry-layout.active { display: block; }
+.feed-layout.hidden { display: none; }
+.masonry-item { break-inside: avoid; margin-bottom: 16px; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--card-border); background: var(--bg-secondary); cursor: zoom-in; transition: all 0.2s ease; }
+.masonry-item:hover { border-color: var(--accent-gold); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.masonry-item img { width: 100%; height: auto; display: block; }
+
+.lightbox-modal { position: fixed; inset: 0; z-index: 1000; background: rgba(0, 0, 0, 0.95); backdrop-filter: blur(12px); display: none; align-items: center; justify-content: center; padding: 20px; }
+.lightbox-modal.active { display: flex; }
+.lightbox-img-wrap { max-width: 94vw; max-height: 90vh; position: relative; }
+.lightbox-img { max-width: 100%; max-height: 88vh; border-radius: var(--radius-sm); box-shadow: 0 0 48px rgba(0,0,0,0.8); }
+.lightbox-close { position: absolute; top: -44px; right: 0; background: transparent; border: none; color: #fff; font-size: 32px; cursor: pointer; }
+.lightbox-counter { text-align: center; font-family: var(--font-mono); font-size: 13px; color: var(--text-gold); margin-top: 10px; }
+
+@media (max-width: 768px) {
+  .hero-title { font-size: 30px; }
+  .hero-quote { padding: 14px 18px; font-size: 14px; }
+  .feed-layout { gap: 24px; }
+  .masonry-layout { column-count: 2; column-gap: 10px; }
+}
+@media (max-width: 480px) {
+  .masonry-layout { column-count: 1; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="brand-badge">
+      <div class="brand-mark">奥</div>
+      <div>
+        <div class="brand-name">奥山由之 (Yoshiyuki Okuyama)</div>
+        <div style="font-size:10px; color:var(--text-gold); font-family:var(--font-mono);">青春晃动感、灵动闪光灯、情绪抓拍、充满生命力的当</div>
+      </div>
+    </a>
+    
+    <div class="header-actions">
+      <button class="pill-btn" onclick="toggleTheme()">🌓 主题</button>
+      <a href="https://gengyueworks.github.io/photography-masters-gallery/" class="pill-btn">📋 大师总清单</a>
+      <a href="https://gengyueworks.github.io/pentax67ii-manual/" class="pill-btn">📷 宾得说明书</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-tag">🇯🇵 日本 · 1991– · 摄影大师灵感档案</div>
+    <h1 class="hero-title">奥山由之 (Yoshiyuki Okuyama)</h1>
+    <div class="hero-quote">“用胶片捕捉那些正在流逝的、不完美的、带着微弱晃动的青春瞬间。”</div>
+    <div class="hero-stats">
+      <div class="stat-item"><strong>代表作</strong> 《BACON ICE CREAM》 · 宝矿力水特青春海报全系列 · 《POCARI SWEAT》</div>
+      <div class="stat-item"><strong>核心器材</strong> 35mm / 120 中画幅胶片机 · 彩色负片</div>
+      <div class="stat-item"><strong>精选馆藏</strong> 35 幅高清无损原作</div>
+    </div>
+  </div>
+</section>
+
+<div class="controls-bar-wrap">
+  <div class="container controls-inner">
+    <div style="font-size:13px; font-weight:700; color:var(--text-gold); font-family:var(--font-mono);">
+      CURATED WORKS (35P)
+    </div>
+    <div class="view-mode-group">
+      <button class="view-btn active" id="btnViewFeed" onclick="setViewMode('feed')">📱 灵感流 (Feed)</button>
+      <button class="view-btn" id="btnViewMasonry" onclick="setViewMode('masonry')">🔲 瀑布流 (Grid)</button>
+    </div>
+  </div>
+</div>
+
+<main class="container gallery-section">
+  <div class="feed-layout" id="feedContainer"></div>
+  <div class="masonry-layout" id="masonryContainer"></div>
+</main>
+
+<div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox(event)">
+  <div class="lightbox-img-wrap" onclick="event.stopPropagation()">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <img id="lightboxImg" class="lightbox-img" src="" alt="大图查看">
+    <div class="lightbox-counter" id="lightboxCounter"></div>
+  </div>
+</div>
+
+<script>
+const IMAGES = [{"filename": "Yoshiyuki_Okuyama_photography_01.jpg", "width": 1280, "height": 720, "aspect": 1.78}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_02.jpg", "width": 800, "height": 800, "aspect": 1.0}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_03.jpg", "width": 736, "height": 981, "aspect": 0.75}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_04.jpg", "width": 1140, "height": 640, "aspect": 1.78}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_05.jpg", "width": 1140, "height": 712, "aspect": 1.6}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_06.jpg", "width": 1280, "height": 1280, "aspect": 1.0}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_08.jpg", "width": 750, "height": 975, "aspect": 0.77}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_13.jpg", "width": 750, "height": 975, "aspect": 0.77}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_14.jpg", "width": 2322, "height": 1440, "aspect": 1.61}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_15.jpg", "width": 1024, "height": 555, "aspect": 1.85}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_16.jpg", "width": 920, "height": 518, "aspect": 1.78}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_17.jpg", "width": 800, "height": 800, "aspect": 1.0}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_18.jpg", "width": 626, "height": 626, "aspect": 1.0}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_19.jpg", "width": 736, "height": 985, "aspect": 0.75}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_21.jpg", "width": 1200, "height": 630, "aspect": 1.9}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_23.jpg", "width": 1200, "height": 800, "aspect": 1.5}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_24.jpg", "width": 922, "height": 922, "aspect": 1.0}, {"filename": "okuyama_Okuyama_Yoshiyuki_photobook_25.jpg", "width": 800, "height": 800, "aspect": 1.0}, {"filename": "okuyama_Yoshiyuki_Okuyama_Pocari_01.jpg", "width": 2380, "height": 2380, "aspect": 1.0}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_01.jpg", "width": 898, "height": 797, "aspect": 1.13}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_02.jpg", "width": 1600, "height": 1200, "aspect": 1.33}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_03.jpg", "width": 2560, "height": 1600, "aspect": 1.6}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_04.jpg", "width": 1024, "height": 768, "aspect": 1.33}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_07.jpg", "width": 900, "height": 600, "aspect": 1.5}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_09.jpg", "width": 1131, "height": 707, "aspect": 1.6}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_10.jpg", "width": 1054, "height": 758, "aspect": 1.39}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_11.jpg", "width": 1080, "height": 1054, "aspect": 1.02}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_13.jpg", "width": 1920, "height": 1117, "aspect": 1.72}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_14.jpg", "width": 1600, "height": 800, "aspect": 2.0}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_16.jpg", "width": 1024, "height": 646, "aspect": 1.59}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_17.jpg", "width": 3000, "height": 2312, "aspect": 1.3}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_21.jpg", "width": 2560, "height": 1440, "aspect": 1.78}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_22.jpg", "width": 1600, "height": 1206, "aspect": 1.33}, {"filename": "okuyama_Yoshiyuki_Okuyama_editorial_23.jpg", "width": 2100, "height": 1500, "aspect": 1.4}, {"filename": "okuyama_Yoshiyuki_Okuyama_portrait_01.jpg", "width": 992, "height": 662, "aspect": 1.5}];
+let currentView = 'feed';
+let activeIndex = 0;
+
+function renderGalleries() {
+  const feed = document.getElementById('feedContainer');
+  const masonry = document.getElementById('masonryContainer');
+  feed.innerHTML = '';
+  masonry.innerHTML = '';
+  
+  IMAGES.forEach((item, idx) => {
+    const fc = document.createElement('article');
+    fc.className = 'feed-card';
+    fc.innerHTML = `
+      <img class="feed-card-img" src="images/${item.filename}" alt="奥山由之作品" loading="lazy" onclick="openLightbox(${idx})" onerror="this.onerror=null; this.src='https://raw.githubusercontent.com/gengyueworks/yoshiyuki-okuyama-archive/main/images/${item.filename}';">
+      <div class="feed-card-footer">
+        <span style="font-family:var(--font-mono); color:var(--text-gold); font-weight:700;"># 奥山由之</span>
+        <span style="color:var(--text-muted); font-family:var(--font-mono);">${item.width}×${item.height}</span>
+      </div>
+    `;
+    feed.appendChild(fc);
+    
+    const mi = document.createElement('div');
+    mi.className = 'masonry-item';
+    mi.innerHTML = `<img src="images/${item.filename}" alt="作品" loading="lazy" onclick="openLightbox(${idx})">`;
+    masonry.appendChild(mi);
+  });
+}
+
+function setViewMode(mode) {
+  currentView = mode;
+  const feed = document.getElementById('feedContainer');
+  const masonry = document.getElementById('masonryContainer');
+  const btnF = document.getElementById('btnViewFeed');
+  const btnM = document.getElementById('btnViewMasonry');
+  
+  if (mode === 'feed') {
+    feed.classList.remove('hidden');
+    masonry.classList.remove('active');
+    btnF.classList.add('active');
+    btnM.classList.remove('active');
+  } else {
+    feed.classList.add('hidden');
+    masonry.classList.add('active');
+    btnF.classList.remove('active');
+    btnM.classList.add('active');
+  }
+}
+
+function openLightbox(idx) {
+  activeIndex = idx;
+  const item = IMAGES[idx];
+  document.getElementById('lightboxImg').src = 'images/' + item.filename;
+  document.getElementById('lightboxCounter').textContent = `${idx + 1} / ${IMAGES.length} · 奥山由之`;
+  document.getElementById('lightboxModal').classList.add('active');
+}
+
+function closeLightbox() {
+  document.getElementById('lightboxModal').classList.remove('active');
+}
+
+function nextLightbox() {
+  openLightbox((activeIndex + 1) % IMAGES.length);
+}
+
+function prevLightbox() {
+  openLightbox((activeIndex - 1 + IMAGES.length) % IMAGES.length);
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') || 'paper';
+  const next = current === 'dark' ? 'paper' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('master_theme_yoshiyuki-okuyama', next);
+}
+
+window.addEventListener('keydown', (e) => {
+  const modal = document.getElementById('lightboxModal');
+  if (modal.classList.contains('active')) {
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight' || e.key === ' ') nextLightbox();
+    if (e.key === 'ArrowLeft') prevLightbox();
+  }
+});
+
+let touchStartX = 0;
+document.getElementById('lightboxModal').addEventListener('touchstart', (e) => {
+  touchStartX = e.changedTouches[0].screenX;
+}, { passive: true });
+
+document.getElementById('lightboxModal').addEventListener('touchend', (e) => {
+  const diff = e.changedTouches[0].screenX - touchStartX;
+  if (diff < -40) nextLightbox();
+  if (diff > 40) prevLightbox();
+}, { passive: true });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('master_theme_yoshiyuki-okuyama') || 'paper';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+  renderGalleries();
+});
+</script>
+</body>
+</html>
